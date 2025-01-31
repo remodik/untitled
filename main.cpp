@@ -11,7 +11,7 @@ int main() {
     v1.emplace(3, 7);
     v1.printVector();
 
-    const Vector rev = v1.reversed();
+    Vector rev = v1.reversed();
     rev.printVector();
 
     v1.fillVector(10);

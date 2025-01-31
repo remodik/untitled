@@ -7,12 +7,10 @@ class Vector {
     int *data;
     int size;
     int capacity;
-
     void resise();
 public:
     Vector();
     Vector(int initialCapacity);
-
     void push_back(int value);
     void push_front(int value);
     void emplace(int index, int value);

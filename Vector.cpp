@@ -45,6 +45,7 @@ void Vector::fillVector(const int value) const {
         data[i] = value;
     }
 }
+
 void Vector::printVector() const {
     for (int i = 0; i < size; i++) {
         cout << data[i] << " ";
